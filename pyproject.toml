@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "geekcamp-python-awesome"
+version = "0.1.0"
+description = "极客营Python工具集"
+authors = ["Chengdu Geek Camp <info@cdgeekcamp.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/geekcampchina/geekcamp-python-awesome"
+repository = "https://github.com/geekcampchina/geekcamp-python-awesome"
+documentation = "https://github.com/geekcampchina/geekcamp-python-awesome"
+
+packages = [
+    { include = "geekcamp_awesome" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8.5, <4.0.0"
+happy-python = ">=0.4.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
